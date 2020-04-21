@@ -1,0 +1,275 @@
+html,body {
+ margin:0;
+ padding:0;
+background-color: white;
+ min-width: 1000px;
+font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
+}
+
+ul { padding-inline-start: 0; }
+
+body {height: 100%;}
+
+h1 { 
+	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace; 
+	font-size: 24px;
+	padding-bottom: 40px;
+	 font-style: normal; 
+	 font-variant: normal;
+	  font-weight: 200; 
+	  line-height: 26.4px; 
+	  } 
+h3 { 
+	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace; 
+	font-size: 18px;
+	 font-style: normal;
+	  font-variant: normal; 
+	  font-weight: 700; 
+	  line-height: 15.4px; }
+
+p { 
+	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+	 font-size: 14px;
+	  font-style: normal;
+	   font-variant: normal;
+	    font-weight: 400;
+	     line-height: 20px;
+	      } 
+
+blockquote { 
+	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+ font-size: 21px;
+  font-style: normal;
+   font-variant: normal;
+    font-weight: 400;
+     line-height: 30px;
+      } 
+
+
+
+.fixed-container {
+	width: 940px;
+	margin: 0 auto;
+	position: relative;
+	}
+
+
+
+
+#main-container {
+	padding-bottom: 280px;
+	margin-top: 235px;
+	position: relative;
+	text-align: left;
+
+}
+#main-container a {
+	
+	outline: none;
+	text-decoration: none;
+}
+#column-left-1{
+	width: 380px;
+	float: left;
+	height: 450px;
+	color:black;
+	position: relative;
+	}
+
+#column-right-1{
+	width: 460px;
+	float: right;
+	position: relative;
+}
+
+#menu-container a {
+	color: #d23669;
+	outline: none;
+	text-decoration: none;
+}
+
+.columns a {
+ color:black;
+	outline: none;
+	text-decoration: none;
+}
+
+#menu-container {
+	height: 70px;
+	font-weight: normal;
+	margin-left: auto;
+    margin-right: auto;
+	position: absolute;
+ top:420px;
+	color: #d23669;
+	
+}
+#menu-container ul {
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	top:0px;
+
+}
+#menu-container li {
+	display: inline-block;
+	padding-right: 20px;
+	margin: 0px;
+}
+
+#photo {
+	position: relative;
+	width: 460px;
+}
+
+#main-container .fixed-container {
+    overflow-y: hidden;
+}
+
+#central-container .fixed-container {
+    overflow-y: hidden;
+}
+
+#central-container{
+	padding-top: 0px;
+	padding-bottom: 100px;
+}
+
+.info-container {
+	padding-bottom: 100px;
+	padding-top: 20px;
+	position: relative;
+}
+
+.column-left{
+	width: 220px;
+	float: left;	
+	color:black;
+	padding: 0;
+	margin-top: -24px;
+	vertical-align:top;
+	position: relative;	
+	
+}
+
+.column-right{	
+	width: 700px;
+	float: right;
+	position: relative;		
+		
+}
+
+.projects-column-left-1{
+	width: 220px;
+	float: left;	
+	color:black;
+	padding: 0;
+	
+	vertical-align:top;
+	position: relative;	
+	
+}
+
+.projects-column-right-1{	
+	width: 460px;
+	float: right;
+	position: relative;	
+	vertical-align:top;	
+		
+}
+
+.projects-column-left-2{
+	width: 460px;
+	float: left;	
+	color:black;
+	padding: 0;
+	vertical-align:top;
+	
+	position: relative;	
+	
+}
+
+.projects-column-right-2{	
+	width: 220px;
+	vertical-align:top;
+	float: right;
+	position: relative;		
+		
+}
+
+.projects-item {padding-bottom: 40px;
+ overflow-y: hidden;}
+
+.projects-item a{
+color: #d23669;
+	outline: none;
+	text-decoration: none;
+
+}
+
+.info-container a{
+color: #d23669;
+	outline: none;
+	text-decoration: none;
+}
+
+.info-container div{
+text-align: justify;
+}
+
+.icons img {
+height: 40px;
+
+}
+.icons  {
+	padding-top: 30px;
+	padding-right: 10px;
+	height: 40px;
+}
+
+.icon-text {
+	display: inline-block;
+	margin-left: 10px;
+	vertical-align: middle;
+
+}
+
+.columns img{	
+	height: 18px;	
+	margin-right: 5px;
+	vertical-align: middle;
+	
+}
+.columns ul {
+
+	margin-left: 0; 
+  
+}
+.columns {
+
+	padding-top: 20px;   
+}
+
+.columns li {
+	list-style-type: none;
+	font-size: 16px;
+	margin:0;
+	padding: 0;
+
+}
+
+#footer img {
+	width: 80px;
+	float: right;	
+}
+
+#footer {
+	font-size: 10px;
+float: right;
+text-align: center;
+}
+
+.project-icons { width: 200px; 
+vertical-align:middle;
+	margin:0px;}
